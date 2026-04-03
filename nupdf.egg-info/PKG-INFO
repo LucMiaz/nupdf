@@ -232,7 +232,7 @@ nupdf/
 ## Development
 
 ```bash
-git clone https://github.com/youruser/nupdf.git
+git clone https://github.com/LucMiaz/nupdf.git
 cd nupdf
 pip install -e ".[gui,dev]"
 

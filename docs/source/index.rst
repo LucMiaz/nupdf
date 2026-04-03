@@ -1,13 +1,13 @@
 nuPDF
 =====
 
-.. image:: https://img.shields.io/github/actions/workflow/status/youruser/nupdf/ci.yml?branch=main&label=tests
+.. image:: https://img.shields.io/github/actions/workflow/status/LucMiaz/nupdf/ci.yml?branch=main&label=tests
    :alt: CI status
 
 .. image:: https://img.shields.io/pypi/pyversions/nupdf
    :alt: Python versions
 
-.. image:: https://img.shields.io/github/license/youruser/nupdf
+.. image:: https://img.shields.io/github/license/LucMiaz/nupdf
    :alt: License
 
 **nuPDF** is a lightweight Python utility for merging, rotating and
