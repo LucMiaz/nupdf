@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "nupdf"
-version = "1.0.0"
+version = "1.1"
 description = "Merge, rotate and reorder PDF/image files from a GUI or Python API"
 readme = "README.md"
 license = { file = "LICENSE" }
@@ -30,6 +30,12 @@ dependencies = [
 gui = ["PyQt5>=5.15"]
 dev = ["pytest>=7.0", "pytest-cov", "pylint>=3.0", "pyinstaller"]
 docs = ["sphinx>=7.0", "sphinx-rtd-theme>=2.0", "sphinx-autoapi>=3.0"]
+
+[project.urls]
+Homepage      = "https://gitlab.com/lucmiaz/nupdf"
+Documentation = "https://nupdf.readthedocs.io"
+Repository    = "https://gitlab.com/lucmiaz/nupdf.git"
+
 
 [project.scripts]
 nupdf = "nupdf.gui:main"

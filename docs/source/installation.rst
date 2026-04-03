@@ -20,7 +20,7 @@ From source
 
 .. code-block:: bash
 
-    git clone https://github.com/youruser/nupdf.git
+    git clone https://github.com/LucMiaz/nupdf.git
     cd nupdf
     pip install -e ".[gui]"
 
@@ -28,7 +28,7 @@ Pre-built executables
 ---------------------
 
 Download the latest release from the
-`GitHub Releases page <https://github.com/youruser/nupdf/releases>`_.
+`GitHub Releases page <https://github.com/LucMiaz/nupdf/releases>`_.
 Standalone executables are provided for:
 
 - **Windows** (``nuPDF-windows.exe``)

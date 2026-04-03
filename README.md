@@ -1,12 +1,12 @@
 # nuPDF
 
-[![CI](https://img.shields.io/github/actions/workflow/status/youruser/nupdf/ci.yml?branch=main&label=tests)](https://github.com/youruser/nupdf/actions)
+[![CI](https://img.shields.io/github/actions/workflow/status/LucMiaz/nupdf/ci.yml?branch=main&label=tests)](https://github.com/LucMiaz/nupdf/actions)
 [![Python](https://img.shields.io/pypi/pyversions/nupdf)](https://pypi.org/project/nupdf/)
-[![License](https://img.shields.io/github/license/youruser/nupdf)](LICENSE)
-[![Docs](https://readthedocs.org/projects/nupdf/badge/?version=latest)](https://nupdf.readthedocs.io)
+[![License](https://img.shields.io/github/license/LucMiaz/nupdf)](LICENSE)
+[![Docs](https://nupdf.readthedocs.io/en/latest/)](https://nupdf.readthedocs.io)
 
 **nuPDF** merges, rotates and reorders PDF and image files.  
-It ships a clean Python API *and* an optional PyQt5 desktop GUI.
+The module can be used via Python API or aa optional PyQt5 desktop Graphical User Interface (GUI). The GUI is available under *Releases* on this page, on the right panel.
 
 ---
 

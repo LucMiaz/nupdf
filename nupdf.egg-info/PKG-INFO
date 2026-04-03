@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: nupdf
-Version: 1.0.0
+Version: 1.1
 Summary: Merge, rotate and reorder PDF/image files from a GUI or Python API
 License: MIT License
         
@@ -24,6 +24,9 @@ License: MIT License
         OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
         SOFTWARE.
         
+Project-URL: Homepage, https://gitlab.com/lucmiaz/nupdf
+Project-URL: Documentation, https://nupdf.readthedocs.io
+Project-URL: Repository, https://gitlab.com/lucmiaz/nupdf.git
 Keywords: pdf,merge,rotate,pypdf
 Classifier: Development Status :: 4 - Beta
 Classifier: Intended Audience :: End Users/Desktop
@@ -54,13 +57,13 @@ Dynamic: license-file
 
 # nuPDF
 
-[![CI](https://img.shields.io/github/actions/workflow/status/youruser/nupdf/ci.yml?branch=main&label=tests)](https://github.com/youruser/nupdf/actions)
+[![CI](https://img.shields.io/github/actions/workflow/status/LucMiaz/nupdf/ci.yml?branch=main&label=tests)](https://github.com/LucMiaz/nupdf/actions)
 [![Python](https://img.shields.io/pypi/pyversions/nupdf)](https://pypi.org/project/nupdf/)
-[![License](https://img.shields.io/github/license/youruser/nupdf)](LICENSE)
-[![Docs](https://readthedocs.org/projects/nupdf/badge/?version=latest)](https://nupdf.readthedocs.io)
+[![License](https://img.shields.io/github/license/LucMiaz/nupdf)](LICENSE)
+[![Docs](https://nupdf.readthedocs.io/en/latest/)](https://nupdf.readthedocs.io)
 
 **nuPDF** merges, rotates and reorders PDF and image files.  
-It ships a clean Python API *and* an optional PyQt5 desktop GUI.
+The module can be used via Python API or aa optional PyQt5 desktop Graphical User Interface (GUI). The GUI is available under *Releases* on this page, on the right panel.
 
 ---
 
