@@ -1,0 +1,53 @@
+name: CI
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  test:
+    name: pytest – Python ${{ matrix.python-version }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.9", "3.10", "3.11", "3.12"]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install package and dev extras (no GUI)
+        run: pip install -e ".[dev]"
+
+      - name: Run pytest
+        run: pytest --tb=short
+
+  lint:
+    name: pylint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install package and dev extras
+        run: pip install -e ".[dev]"
+
+      - name: Lint nupdf/core.py (score must be ≥ 8.0)
+        run: |
+          pylint nupdf/core.py --fail-under=8.0
+
+      - name: Lint nupdf/gui.py (score must be ≥ 7.0)
+        run: |
+          # gui.py has import-error warnings for PyQt5 (not installed in CI)
+          pylint nupdf/gui.py --disable=import-error --fail-under=7.0

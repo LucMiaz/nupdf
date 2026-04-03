@@ -1,0 +1,2 @@
+[console_scripts]
+nupdf = nupdf.gui:main

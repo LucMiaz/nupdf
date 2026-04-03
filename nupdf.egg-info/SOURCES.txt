@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+nupdf/__init__.py
+nupdf/core.py
+nupdf/gui.py
+nupdf.egg-info/PKG-INFO
+nupdf.egg-info/SOURCES.txt
+nupdf.egg-info/dependency_links.txt
+nupdf.egg-info/entry_points.txt
+nupdf.egg-info/requires.txt
+nupdf.egg-info/top_level.txt
+tests/test_core.py
