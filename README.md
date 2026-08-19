@@ -24,6 +24,10 @@ The module can be used via Python API or aa optional PyQt5 desktop Graphical Use
 
 ---
 
+## Web tool for occasional use
+
+If you just want to test it or have only a few documents to merge, you can use the python package [here](https://chem.cogitopia.dev/nupdf) without installation. 
+
 ## Installation
 
 ```bash
@@ -203,6 +207,10 @@ GitHub Actions will build standalone executables for Windows, Ubuntu and
 macOS and attach them to a new GitHub Release automatically.
 
 ---
+
+## Privacy
+
+No data is collected by the package (it works offline, relying on PyPDF). The Web tool uses nupdf, and doesn't collect personal data or documents. Only anonymised usage statistics (hashed IP, country of origin, page used, timestamp) are kept for 90 days by the web tool. 
 
 ## License
 
